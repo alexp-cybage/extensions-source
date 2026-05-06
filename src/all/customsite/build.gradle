@@ -1,12 +1,7 @@
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
-
 ext {
     extName = 'Custom Site'
-    pkgNameSuffix = 'all.customsite'
     extClass = '.CustomSite'
     extVersionCode = 1
-    // No isNsfw flag — set to true if needed
 }
 
 apply from: "$rootDir/common.gradle"
