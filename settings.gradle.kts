@@ -8,6 +8,7 @@ loadAllIndividualExtensions()
  * ===================================== COMMON CONFIGURATION ======================================
  */
 include(":core")
+include(":src:all:customsite")
 
 // Load all modules under /lib
 File(rootDir, "lib").eachDir { include("lib:${it.name}") }
